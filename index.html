@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Προσωπική ιστοσελίδα της Μαρίνας Τούτουζα, δρομέας στο ΣΔΥΑ και παλαιότερα υπάλληλος στο Ιπποκράτειο Νοσοκομείο Αθηνών.">
+  <meta name="keywords" content="Μαρίνα Τούτουζα, δρομέας, ΣΔΥΑ, Ιπποκράτειο, αθλητισμός">
+  <meta name="author" content="Marina Toutouza">
+  <link rel="icon" href="https://i.ibb.co/Xr6238q3/GIOTSA-MARINA.jpg" type="image/jpeg">
+  <title>Μαρίνα Τούτουζα</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    .about a { color: blue; text-decoration: none; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; color: #333; }
+    header { background: #f8f8f8; padding: 20px; }
+    nav { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo img { height: 100px; }
+    nav a { text-decoration: none; color: #333; margin: 0 15px; font-weight: 700; }
+    .container { max-width: 960px; margin: 40px auto; padding: 0 20px; }
+    .hero { text-align: center; padding: 80px 20px; background: #e9ecef; }
+    .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.2rem; }
+    section { margin-bottom: 60px; }
+    h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid #e9ecef; padding-bottom: 10px; }
+    .about p { font-size: 1rem; }
+    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .portfolio-item { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    .portfolio-item img { width: 100%; height: 200px; object-fit: cover; display: block; }
+    .portfolio-item h3 { padding: 15px; font-size: 1.1rem; }
+    .contact-form { display: flex; flex-direction: column; }
+    .contact-form label { margin-bottom: 5px; font-weight: 700; }
+    .contact-form input, .contact-form textarea { padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; }
+    .contact-form button { padding: 10px 20px; border: none; border-radius: 4px; background: #333; color: #fff; font-size: 1rem; cursor: pointer; }
+    .footer-content { text-align: center; padding: 20px 0; background: #f1f1f1; }
+    .footer-content img { max-width: 100%; height: auto; }
+    .footer-content p { margin-top: 10px; font-size: 0.9rem; color: #333; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav id="menu">
+      <div class="logo">
+        <a href="#hero"><img src="https://i.ibb.co/Xr6238q3/GIOTSA-MARINA.jpg" alt="Μαρίνα Τούτουζα"></a>
+      </div>
+      <div class="menu">
+        <a href="#about">Σχετικά</a>
+        <a href="#portfolio">Πορτφόλιο</a>
+        <a href="#contact">Επικοινωνία</a>
+      </div>
+    </nav>
+  </header>
+  <section id="hero" class="hero">
+    <h1>Μαρίνα Τούτουζα</h1>
+    <p>Δρομέας στο ΣΔΥΑ</p>
+  </section>
+  <div class="container">
+    <section id="about" class="about">
+      <h2>Σχετικά</h2>
+      <p>Καλώς ήρθατε στην προσωπική μου ιστοσελίδα. Είμαι δρομέας στον ΣΔΥΑ ως χόμπι και παλαιότερα εργαζόμουν στο <a href="https://www.hippocratio.gr/el" target="_blank" rel="noopener">Ιπποκράτειο Νοσοκομείο Αθηνών</a>. Η ενασχόλησή μου με τον αθλητισμό με εμπνέει στην καθημερινότητά μου.</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2>Πορτφόλιο</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <a href="https://www.runnermagazine.gr" target="_blank" rel="noopener">
+            <img src="https://i.ibb.co/RTzLyhzh/2025-06-22-141146.png" alt="Αγώνες και Εκδηλώσεις">
+            <h3>Αγώνες και Εκδηλώσεις</h3>
+          </a>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://i.ibb.co/7NpQXvQR/malta.png" alt="Μαραθώνιοι">
+          <h3>Μαραθώνιοι</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://i.ibb.co/hJcVFDCJ/10xlm-1.png" alt="Προπονήσεις">
+          <h3>Προπονήσεις</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://i.ibb.co/jPZ6tscw/441430112-449001727714776-7591525497109572111-n.jpg" alt="Διάφορα Events">
+          <h3>Διάφορα Events</h3>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Επικοινωνία</h2>
+      <p>Επικοινωνία: <a href="mailto:giotsa@mailmasker.com">giotsa@mailmasker.com</a></p>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <img src="https://i.ibb.co/vxG06X0s/MARTOYTneo.png" alt="Μαρίνα Τούτουζα">
+      <p>&copy; Marina Toutouza KAI SIA</p>
+      <p>Ακολούθησε με: <a href="https://twitter.com/marina_toutouza" target="_blank" rel="noopener">@marina_toutouza</a> | <a href="https://www.youtube.com/@marinatoutouza" target="_blank" rel="noopener">@marinatoutouza</a> | <a href="https://www.facebook.com/marina.toutouza" target="_blank" rel="noopener">marina.toutouza</a></p>
+      <p><a href="#menu">ΠΗΓΑΙΝΕ ΠΑΝΩ</a></p>
+    </div>
+  </footer>
+</body>
+</html>
